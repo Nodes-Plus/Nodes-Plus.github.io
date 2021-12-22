@@ -1,0 +1,17 @@
+{
+  "homepage": "https://Nodes-Plus.github.io/index.html",
+  "1.17.1": {
+    "2.0.0": "Ported mod to Minecraft forge 1.17.1 from 1.16.5"
+  },
+  "1.16.5": {
+    "2.0.0": "Remade the mod due to lost workpsace.\nRemade the mod due to lost workpsace.\nAdded Oak Wood Node.\nAdded Hidden Oak Wood Node.\nAdded Oak Wood Node Structure.\nAdded Spruce Wood Node.\nAdded Hidden Spruce Wood Node.\nAdded Spruce Wood Node Structure.\nAdded Birch Wood Node.\nAdded Hidden Birch Wood Node.\nAdded Birch Wood Node Structure.\nAdded Jungle Wood Node.\nAdded Hidden Jungle Wood Node.\nAdded Jungle Wood Node Structure.\nAdded Acacia Wood Node.\nAdded Hidden Acacia Wood Node.\nAdded Acacia Wood Node Structure.\nAdded Dark Oak Wood Node.\nAdded Hidden Dark Oak Wood Node.\nAdded Dark Oak Wood Node Structure.\nAdded Crimson Wood Node.\nAdded Hidden Crimson Wood Node.\nAdded Crimson Wood Node Structure.\nAdded Warped Wood Node.\nAdded Hidden Warped Wood Node.\nAdded Warped Wood Node Structure.\nAdded Custom Node Particles.\nAdded Nodes Plus Creative Tab.\nHidden Nodes are not breakable but regular wood are..\nWood nodes now gain one log every 2 minutes.\nWood nodes now can reach 64 items when collected.\nWood nodes require a diamond axe to break and obtain the block."
+  },
+  "1.15.2": {
+    "1.1.0": "\nAdded Creative Tab.\nAdded Spruce Wood Nodes.\nAdded Birch Wood Nodes.\nAdded Jungle Wood Nodes.\nAdded Acacia Wood Nodes.\nAdded Dark Oak Wood Nodes.\nNodes now refresh every 5 minutes.\nRebalanced node drop amounts.\nMining wood now has a 50% chance of dropping logs, 30% chance of dropping sticks, and a 20% chance of dealing damage for every item that would have dropped (max 24 damage points).\nDrops amount is now random level 1 can drop between (1 and 6) items or deal damage to the tool, level 2 can drop between (1 and 12) items or deal damage to the tool, level 3 can drop between (1 and 18) items or deal damage to the tool, and level 4 can drop between (1 and 24) items or deal damage to the tool.",
+    "1.0.0": "Added Oak Wood Nodes"
+  },
+  "promos": {
+    "1.17.1-latest": "2.0.0",
+    "1.17.1-recommended": "2.0.0"
+  }
+}
