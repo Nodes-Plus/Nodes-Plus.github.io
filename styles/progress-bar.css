@@ -1,8 +1,9 @@
-/* PROGRESS */
+/* PROGRESS COMPLETE */
 .progress {
-    width: 14.28%;
+    width: calc(100% / 7 * 1);
 }
 
+/* STYLE */
 .progress-bar {
     width: 100%;
     height: 30px;
