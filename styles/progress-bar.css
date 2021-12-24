@@ -5,36 +5,32 @@
 
 /* STYLE */
 .progress-bar {
-    width: 100%;
-    height: 40px;
     background-color: darkgray;
     border-radius: 12px;
     margin: 15px 0px;
+    height: 40px;
+    width: 100%;    
 }
 
 .progress {
-    height: 40px;
+    background-color: #006631;
     border-radius: 12px;
-    background-color: green;
-    background: linear-gradient(-90deg, #85B200, #329900, #007F08, #006631);
-	background-size: 300% 300%;
-	animation: gradient 15s ease infinite;
+    animation: progress-frames 15s ease infinite;
+    height: 40px;
 }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 
 .progress p {
-    color: white;
     padding: 10px 0px 10px 20px;
+    color: white;
+}
+
+
+@keyframes progress-frames {
+  0% {background-color: #006631;}
+  16% {background-color: #007F08;}
+  33% {background-color: #329900;}
+  49% {background-color: #85B200;}
+  66% {background-color: #329900;}
+  83% {background-color: #007F08;}
+  100% {background-color: #006631;}
 }
