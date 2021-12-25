@@ -21,10 +21,12 @@ Background
 */
 
 body {
-    background-repeat: no-repeat;
-    background-color: #7C0048;
-    background-size: 300% 300%;
-	animation: background-frames 15s ease infinite;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat, repeat;
+    background-color: #3F4A7F;
+    background-image: url("../images/background.png");
+    background-size: 360px 360px;
     padding: 0% 5% 5px 5%;
 }
 
@@ -41,38 +43,48 @@ Font
 
 h1, h2, h3, h4, h5, h6 {
   font-family: bungeefont, Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  padding-bottom:10px;
+  margin:0px;
 }
+
 h1 {
+    text-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.4);
     font-size: 55px;
     padding: 10px 0px;
-    
+    color: #FFFFFF;
 }
+
 h2 {
-    text-shadow: 2.5px 2.5px 5px rgba(255, 255, 255, 0.4);
+    text-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.6);
     animation: font-frames 15s ease infinite;
     font-size: 50px;
     color: #000D66;
 }
+
 h3 {
-    text-shadow: 2.5px 2.5px 5px rgba(255, 255, 255, 0.4);
+    text-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.6);
     animation: font-frames 15s ease infinite;
     font-size: 46px;
     color: #000D66;
 }
+
 h4 {
-    text-shadow: 2.5px 2.5px 5px rgba(255, 255, 255, 0.4);
+    text-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.6);
     animation: font-frames 15s ease infinite;
     font-size: 37px;
     color: #000D66;
 }
+
 h5 {
-    text-shadow: 2.5px 2.5px 5px rgba(255, 255, 255, 0.4);
+    text-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.6);
     animation: font-frames 15s ease infinite;
     font-size: 30px;
     color: #000D66;
 }
+
 h6 {
-    text-shadow: 2.5px 2.5px 5px rgba(255, 255, 255, 0.4);
+    text-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.6);
     animation: font-frames 15s ease infinite;
     font-size: 25px;
     color: #000D66;
@@ -81,6 +93,7 @@ h6 {
 p {
     padding: 10px 0px;
 }
+
 p, a, li {
     font-size: 18px;
 }
@@ -145,18 +158,22 @@ Buttons
 }
 
 .button-style {
-  background-color: white;
+  background-color: #202020;
   border-radius: 12px;
-  border-color: #000D66;
+  border-color: #101010;
   border-style: solid;
   border-width: 6px;
-  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.4);
-  animation: border-frames 15s ease infinite;
-  color: black;
+  box-shadow: 5px 5px 2.5px 0px rgba(0, 0, 0, 0.4);
+  color: white;
 }
 
 .button-style:hover {
-  background-color: #404040;
+  background-color: #606060;
+  border-radius: 12px;
+  border-color: #505050;
+  border-style: solid;
+  border-width: 6px;
+  box-shadow: 5px 5px 2.5px 0px rgba(0, 0, 0, 0.4);
   color: white;
 }
 
@@ -195,14 +212,14 @@ Lines
 */
 
 .innerline {
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 10px;
   padding-top: 20px;
   width: 100%;
 }
 
 .innerline-light {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 10px;
   padding-top: 20px;
   width: 100%;
@@ -218,15 +235,19 @@ Boxes
   background-color: #101010;
   margin-bottom: 15px;
   border-radius: 25px;
+  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.66);
   padding: 15px;
   border: 0px solid #101010;  
 }
 .boxheader {
   background-position: center;
+  background-repeat: repeat, repeat;
+  background-color: #3F4A7F;
   background-image: url("../images/header.png");
-  background-size: 400%;
+  background-size: 200px 200px;
   margin-bottom: 15px;
   border-radius: 25px;
+  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.66);
   margin-top: 15px;  
   padding: 15px;
   border: 0px solid #202020;  
@@ -234,8 +255,9 @@ Boxes
 
 .box2 {
   background-color: #202020;
-  margin-bottom: 15px;
+  margin-top: 15px;
   border-radius: 25px;
+  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.66);
   padding: 15px;
   border: 0px solid #202020;  
 }
@@ -269,31 +291,25 @@ Animations
 */
 
 @keyframes border-frames {
-  0% {border-color: #000D66;}
-  16% {border-color: #250A5D;}
-  33% {border-color: #520452;}
-  49% {border-color: #7C0048;}
-  66% {border-color: #520452;}
-  83% {border-color: #250A5D;}
-  100% {border-color: #000D66;}
+  0% {border-color: #50281B;}
+  50% {border-color: #783F28;}
+  100% {border-color: #50281B;}
 }
 
 @keyframes font-frames {
-  0% {color: #000D66;}
-  16% {color: #250A5D;}
-  33% {color: #520452;}
-  49% {color: #7C0048;}
-  66% {color: #520452;}
-  83% {color: #250A5D;}
-  100% {color: #000D66;}
+  0% {color: #CCB77A;}
+  25% {color: #BFA46E;}
+  50% {color: #B29163;}
+  75% {color: #BFA46E;}
+  100% {color: #CCB77A;}
 }
 
 @keyframes background-frames {
-  0% {background-color: #7C0048;}
-  16% {background-color: #520452;}
-  33% {background-color: #250A5D;}
-  49% {background-color: #000D66;}
-  66% {background-color: #250A5D;}
-  83% {background-color: #520452;}
-  100% {background-color: #7C0048;}
+  0% {background-color: #33663A;}
+  16% {background-color: #4A763F;}
+  33% {background-color: #6D8D47;}
+  49% {background-color: #7F994C;}
+  66% {background-color: #6D8D47;}
+  83% {background-color: #4A763F;}
+  100% {background-color: #33663A;}
 }
