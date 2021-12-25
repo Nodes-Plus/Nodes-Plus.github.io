@@ -12,6 +12,12 @@ Site
 html {
     z-index:0;
     height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat, repeat;
+    background-color: #663421;
+    background-image: url("../images/background.png");
+    background-size: 360px 360px;
 }
 
 /*
@@ -24,7 +30,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat, repeat;
-    background-color: #3F4A7F;
+    background-color: #663421;
     background-image: url("../images/background.png");
     background-size: 360px 360px;
     padding: 0% 5% 5px 5%;
@@ -179,31 +185,43 @@ Buttons
 }
 
 .box .button-style {
-  background-color: white;
+  background-color: #BFA46E;
   border-radius: 12px;
-  border-color: gray;
+  border-color: #FFFFFF;
   border-style: solid;
   border-width: 6px;
+  box-shadow: 5px 5px 2.5px 0px rgba(0, 0, 0, 0.4);
   color: black;
 }
 
 .box .button-style:hover {
-  background-color: #404040;
-  color: white;
+  background-color: #CCB77A;
+  border-radius: 12px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: 6px;
+  box-shadow: 5px 5px 2.5px 0px rgba(0, 0, 0, 0.4);
+  color: black;
 }
 
 .box2 .button-style {
-  background-color: white;
+  background-color: #BFA46E;
   border-radius: 12px;
-  border-color: gray;
+  border-color: #FFFFFF;
   border-style: solid;
   border-width: 6px;
+  box-shadow: 5px 5px 2.5px 0px rgba(0, 0, 0, 0.4);
   color: black;
 }
 
 .box2 .button-style:hover {
-  background-color: #404040;
-  color: white;
+  background-color: #CCB77A;
+  border-radius: 12px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: 6px;
+  box-shadow: 5px 5px 2.5px 0px rgba(0, 0, 0, 0.4);
+  color: black;
 }
 
 /*
@@ -243,7 +261,7 @@ Boxes
 .boxheader {
   background-position: center;
   background-repeat: repeat, repeat;
-  background-color: #3F4A7F;
+  background-color: #CCB77A;
   background-image: url("../images/header.png");
   background-size: 200px 200px;
   margin-bottom: 15px;
