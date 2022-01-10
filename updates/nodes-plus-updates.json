@@ -1,7 +1,9 @@
 {
   "homepage": "https://Nodes-Plus.github.io/index.html",
   "1.17.1": {
-    "2.0.0": "Ported mod to Minecraft forge 1.17.1 from 1.16.5"
+    "2.0.0": "Ported mod to Minecraft forge 1.17.1 from 1.16.5",
+    "2.1.0": "Added Amethyst Crystal Node. \nAdded Diamond Crystal Node.\nAdded Emerald Crystal Node.\nAdded Glowstone Crystal Node.\nAdded Lapis Crystal Node.\nAdded Quartz Crystal Node.\nAdded Redstone Crystal Node.\nFixed Crimson and Warped wood animation.\nFixed Crimson and Warped wood being rare in the nether.\nFixed Crimson and Warped wood not generating.\nUpdated the model view positions for all wood nodes.",
+    "2.2.0": "Added Coal Mineral Nodes./nAdded Copper Mineral Nodes./nAdded dangerous harvest event on full moons./nAdded Gold Mineral Nodes./nAdded Iron Mineral Nodes./nAdded unique particles for every node."
   },
   "1.16.5": {
     "2.0.0": "Remade the mod due to lost workspace.\nAdded Oak Wood Node.\nAdded Hidden Oak Wood Node.\nAdded Oak Wood Node Structure.\nAdded Spruce Wood Node.\nAdded Hidden Spruce Wood Node.\nAdded Spruce Wood Node Structure.\nAdded Birch Wood Node.\nAdded Hidden Birch Wood Node.\nAdded Birch Wood Node Structure.\nAdded Jungle Wood Node.\nAdded Hidden Jungle Wood Node.\nAdded Jungle Wood Node Structure.\nAdded Acacia Wood Node.\nAdded Hidden Acacia Wood Node.\nAdded Acacia Wood Node Structure.\nAdded Dark Oak Wood Node.\nAdded Hidden Dark Oak Wood Node.\nAdded Dark Oak Wood Node Structure.\nAdded Crimson Wood Node.\nAdded Hidden Crimson Wood Node.\nAdded Crimson Wood Node Structure.\nAdded Warped Wood Node.\nAdded Hidden Warped Wood Node.\nAdded Warped Wood Node Structure.\nAdded Custom Node Particles.\nAdded Nodes Plus Creative Tab.\nHidden Nodes are not breakable but regular wood are..\nWood nodes now gain one log every 2 minutes.\nWood nodes now can reach 64 items when collected.\nWood nodes require a diamond axe to break and obtain the block."
@@ -11,7 +13,11 @@
     "1.0.0": "Added Oak Wood Nodes"
   },
   "promos": {
-    "1.17.1-latest": "2.0.0",
-    "1.17.1-recommended": "2.0.0"
+    "1.17.1-latest": "2.2.0",
+    "1.17.1-recommended": "2.2.0",
+    "1.16.5-latest": "2.0.0",
+    "1.16.5-recommended": "2.0.0",
+    "1.15.2-latest": "1.1.0",
+    "1.15.2-recommended": "1.1.0"
   }
 }
