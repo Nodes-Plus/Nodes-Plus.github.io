@@ -1,3 +1,3 @@
-var myNumber = 100 / 3 * 2;
+var myNumber = 100 / 5 * 0;
 var myValue = myNumber.toFixed(2);
 document.getElementById("progresstext").innerHTML = myValue + "%";
